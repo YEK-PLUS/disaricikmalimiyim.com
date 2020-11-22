@@ -1,0 +1,39 @@
+html,
+body,
+#__next {
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+
+  @apply tracking-tight;
+  @apply text-base;
+}
+button:focus,
+input:focus,
+textarea:focus,
+div:focus {
+  outline: none !important;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+.cke_1.cke_chrome {
+  overflow: hidden;
+  border-radius: 0.5rem;
+}

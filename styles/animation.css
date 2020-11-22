@@ -1,0 +1,12 @@
+.animation {
+  transition-property: all;
+  transition-duration: 0.5s;
+}
+.animation-fast {
+  transition-property: all;
+  transition-duration: 0.2s;
+}
+.animation-slow {
+  transition-property: all;
+  transition-duration: 1s;
+}

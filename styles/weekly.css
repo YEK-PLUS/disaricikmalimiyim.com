@@ -1,0 +1,118 @@
+.weekly table {
+  font-family: sans-serif;
+  width: 100%;
+  border-spacing: 0;
+  border-collapse: separate;
+  table-layout: fixed;
+  margin-bottom: 50px;
+}
+.weekly table thead tr th {
+  background: #4AB0D9;
+  color: #f3fafc;
+  padding: 0.5em;
+  overflow: hidden;
+}
+.weekly table thead tr th:first-child {
+  border-radius: 3px 0 0 0;
+}
+.weekly table thead tr th:last-child {
+  border-radius: 0 3px  0 0;
+}
+.weekly table thead tr th .day {
+  display: block;
+  font-size: 1.2em;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.8;
+}
+.weekly table thead tr th .day.active {
+  background: #f3fafc;
+  color: #4AB0D9;
+}
+.weekly table thead tr th .short {
+  display: none;
+}
+.weekly table thead tr th i {
+  vertical-align: middle;
+  font-size: 2em;
+}
+.weekly table tbody tr {
+  background: #f3fafc;
+}
+.weekly table tbody tr:nth-child(odd) {
+  background: #e6f4fa;
+}
+.weekly table tbody tr:nth-child(4n+0) td {
+  border-bottom: 1px solid #4AB0D9;
+}
+.weekly table tbody tr td {
+  text-align: center;
+  vertical-align: middle;
+  border-left: 1px solid #4AB0D9;
+  position: relative;
+  height: 32px;
+  cursor: pointer;
+}
+.weekly table tbody tr td:last-child {
+  border-right: 1px solid #4AB0D9;
+}
+.weekly table tbody tr td.hour {
+  font-size: 2em;
+  padding: 0;
+  color: #4AB0D9;
+  background: #fff;
+  border-bottom: 1px solid #4AB0D9;
+  border-collapse: separate;
+  min-width: 100px;
+  cursor: default;
+}
+.weekly table tbody tr td.hour span {
+  display: block;
+}
+@media (max-width: 60em) {
+  .weekly table thead tr th .long {
+    display: none;
+  }
+  .weekly table thead tr th .short {
+    display: block;
+  }
+  .weekly table tbody tr td.hour span {
+    transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+  }
+}
+@media (max-width: 27em) {
+  .weekly table thead tr th {
+    font-size: 65%;
+  }
+  .weekly table thead tr th .day {
+    display: block;
+    font-size: 1.2em;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .weekly table thead tr th .day.active {
+    background: #f3fafc;
+    color: #4AB0D9;
+  }
+  .weekly table tbody tr td.hour {
+    font-size: 1.7em;
+  }
+  .weekly table tbody tr td.hour span {
+    transform: translateY(16px) rotate(270deg);
+    -webkit-transform: translateY(16px) rotate(270deg);
+    -moz-transform: translateY(16px) rotate(270deg);
+  }
+}

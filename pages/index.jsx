@@ -5,6 +5,7 @@ import Footer from "$/Footer";
 import Weekly from "$/Weekly";
 import CheckBox from "#/Inputs/CheckBox";
 import RoundedGoButton from "#/Buttons/RoundedGoButton";
+import { NextSeo } from "next-seo";
 const sgk = [
   /*1*/ [false, true, true, true, true, false, false],
   /*2*/ [false, true, true, true, true, false, false],
@@ -129,6 +130,29 @@ const Home = () => {
       <Header
         onClick={() => {
           tables[1](null);
+        }}
+      />
+      <NextSeo
+        title="Dışarı çıkmalı mıyım?"
+        description="Bugünlerde tekrardan gündeme gelen Sokağa Çıkma Yasakları sebebiyle zorlu günler yaşıyoruz. İki genç olarak yaşadığımız kafa karışıklığını sanal bir çözüme ulaştırdık. Sitemizi ziyaret ettiğinizde 2 kolay soruyu cevaplamanız dahilinde (Yaşınız ve Çalışma Durumunuz) size sunduğumuz takvim sayesinde hangi günler ve saatler arasında Sokağa Çıkma Yasaklarını ihlal etmediğinizi göreceksiniz."
+        canonical="https://disaricikmalimiyim.com"
+        mobileAlternate={{
+          media: "logo.ong",
+        }}
+        openGraph={{
+          type: "website",
+          url: "https://disaricikmalimiyim.com",
+          title: "Dışarı çıkmalı mıyım?",
+          description:
+            "Bugünlerde tekrardan gündeme gelen Sokağa Çıkma Yasakları sebebiyle zorlu günler yaşıyoruz. İki genç olarak yaşadığımız kafa karışıklığını sanal bir çözüme ulaştırdık. Sitemizi ziyaret ettiğinizde 2 kolay soruyu cevaplamanız dahilinde (Yaşınız ve Çalışma Durumunuz) size sunduğumuz takvim sayesinde hangi günler ve saatler arasında Sokağa Çıkma Yasaklarını ihlal etmediğinizi göreceksiniz.",
+          images: [
+            {
+              url: "https://disaricikmalimiyim.com/logo.png",
+              width: 500,
+              height: 500,
+              alt: "Dışarı çıkmalı mıyım?",
+            },
+          ],
         }}
       />
       <Body>

@@ -17,7 +17,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <div className="w-full h-full bg-red-500 relative">
       <Head>
-        <meta name="theme-color" content="#FEC420" />
+        <meta name="theme-color" content="#4AB0D9" />
         <meta
           name="viewport"
           content="minimal-ui, width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"

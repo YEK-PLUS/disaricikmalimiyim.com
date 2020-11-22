@@ -64,7 +64,7 @@ const Header = () => {
                 <a
                   target="_blank"
                   href="https://www.linkedin.com/in/talip-furkan-do%C4%9Fan-a96666127/"
-                  className="w-full text-insta-red text-center flex-full"
+                  className="w-full text-linkedin-blue text-center flex-full"
                 >
                   <FiLinkedin className="mx-1" />
                 </a>
@@ -78,14 +78,14 @@ const Header = () => {
                 <a
                   target="_blank"
                   href="https://github.com/YEK-PLUS"
-                  className="w-full text-insta-red text-center flex-full"
+                  className="w-full text-blue-1 text-center flex-full"
                 >
                   <FiGithub className="mx-1" />
                 </a>
                 <a
                   target="_blank"
                   href="https://www.linkedin.com/in/yunus-emre-k%C3%B6ker-935019190/"
-                  className="w-full text-insta-red text-center flex-full"
+                  className="w-full text-linkedin-blue text-center flex-full"
                 >
                   <FiLinkedin className="mx-1" />
                 </a>
@@ -103,7 +103,7 @@ const Header = () => {
                 <a
                   target="_blank"
                   href="https://www.linkedin.com/in/%C3%B6mer-faruk-%C3%A7oban-245242190/"
-                  className="w-full text-insta-red text-center flex-full"
+                  className="w-full text-linkedin-blue text-center flex-full"
                 >
                   <FiLinkedin className="mx-1" />
                 </a>
@@ -114,7 +114,7 @@ const Header = () => {
                 <a
                   target="_blank"
                   href="https://www.linkedin.com/in/korhan-%C3%B6zse%C3%A7en-b7787048/"
-                  className="w-full text-insta-red text-center flex-full"
+                  className="w-full text-linkedin-blue text-center flex-full"
                 >
                   <FiLinkedin className="mx-1" />
                 </a>

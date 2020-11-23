@@ -1,5 +1,5 @@
 import "../styles/index.css";
-import React from "react";
+import React, { useEffect } from "react";
 import Head from "next/head";
 import LogRocket from "logrocket";
 // import setupLogRocketReact from "logrocket-react";

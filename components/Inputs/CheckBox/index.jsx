@@ -1,9 +1,11 @@
-import React from "react";
-import Fade from "react-reveal/Fade";
-import { AiOutlineCheck } from "react-icons/ai";
-import PropTypes from "prop-types";
+import React from 'react';
+import Fade from 'react-reveal/Fade';
+import { AiOutlineCheck } from 'react-icons/ai';
+import PropTypes from 'prop-types';
 
-const CheckBox = ({ checked, onChange, size, square }) => (
+const CheckBox = ({
+  checked, onChange, size, square,
+}) => (
   <button
     type="button"
     onClick={onChange}
@@ -12,8 +14,8 @@ const CheckBox = ({ checked, onChange, size, square }) => (
       width: size,
     }}
     className={`border border-blue-6 animation-fast flex-full text-blue-1 ${
-      square ? "rounded-sm" : "rounded-full"
-    } ${checked ? "bg-blue-3" : "bg-white"}`}
+      square ? 'rounded-sm' : 'rounded-full'
+    } ${checked ? 'bg-blue-3' : 'bg-white'}`}
   >
     <Fade duration={200} when={checked}>
       <AiOutlineCheck />
